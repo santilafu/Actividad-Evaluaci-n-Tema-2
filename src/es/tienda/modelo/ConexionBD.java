@@ -13,7 +13,7 @@ public class ConexionBD {
     private static final String PASSWORD = "B@se1234Datos";
 
     // Método publico que establece y devuelve la conexión a la base de datos
-    public static Connection getConexion() {
+    public static Connection getConnection() {
         Connection conexion = null;//Objeto de conexión inicializado a null
         try {
             // Establece la conexión utilizando DriverManager
