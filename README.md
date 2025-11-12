@@ -86,6 +86,7 @@ END//
 DELIMITER ;
 ```
 🔹 Este procedimiento permite realizar búsquedas parciales por nombre del videojuego.
+
 Ejemplo:
 
 CALL nombrejuego('war');
